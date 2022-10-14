@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.DivSelect{
+    background-color: rgb(223, 191, 14);
+    width: 85px;
+    padding: 8px;
+    border-radius: 25px;
+    margin-top: 10px;
+
+}
+select{
+    background-color: transparent;
+    border: none;
+    color: white;
+
+}
+
+option{
+    background-color: white;
+    color: rgb(104, 102, 91);
+
+}
+
