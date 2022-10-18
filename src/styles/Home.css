@@ -5,28 +5,75 @@
 }
 
 header{
+    background-color: white;
     padding: 30px;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-.DivSelect{
+/*Menu configurações*/
+.Menu{
     background-color: rgb(223, 191, 14);
-    width: 85px;
-    padding: 8px;
-    border-radius: 25px;
+    padding: 7px;
+    position: absolute;
+    border-radius: 20px;
     margin-top: 10px;
-
-}
-select{
-    background-color: transparent;
-    border: none;
     color: white;
+}
+
+.Menu ul li{
+	width: 90px;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+    
+}
+
+.Menu ul li:hover{
+    line-height: 1.9;
+}
+
+.Menu ul{
+	padding: 0px;
+}
+
+.Menu ul ul{
+	display: none;
+}
+
+.Menu ul li:hover > ul{
+	display:block;
 
 }
 
-option{
-    background-color: white;
-    color: rgb(104, 102, 91);
+.Menu ul ul ul{
+    background-color: rgb(223, 191, 14);
+	margin-left: 90px;
+	top: 0px;
+	position: absolute;
+    padding: 7px;
+    border-radius: 15px;
 
 }
 
+.Menu ul ul li:hover{
+	background-color: rgb(177, 153, 17);
+}
+
+.Menu ul ul ul li:hover{
+	background-color: rgb(177, 153, 17);
+}
+
+.Menu, :link{
+    text-decoration: none;
+}
+
+.Menu span{
+    color: white;
+}
+
+.iconeSeta{
+    color: white;
+    width: 18px;
+    position: absolute;
+}

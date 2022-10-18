@@ -1,7 +1,25 @@
-import React from "react";
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import '../styles/TelaLogin.css';
 
+
 function TelaLogin() {
+
+
+    /*const login = () =>{
+        var email = String(document.getElementsByClassName('email').value);
+        var senha = Number(document.getElementsByClassName('senha').value);
+
+        var res= ''
+        if(email === "admin" && senha === "admin"){
+            res = 'Logado'
+
+        }else{
+            res = 'Erro'
+        }
+
+        alert(res)
+    }*/
 
     return (
         <section>
@@ -35,7 +53,9 @@ function TelaLogin() {
                 
 
                 <div className="btnLoginContainer">
-                    <button className="btnLogin">Entrar</button>
+                    <button className="btnLogin">
+                        <Link to="/"><span>Entrar</span></Link>
+                    </button>
                 </div>
             </form>
         </section>
